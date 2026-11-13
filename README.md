@@ -1,5 +1,7 @@
 # Keyline
 
+[![CI](https://github.com/Swakie35/keyline/actions/workflows/ci.yml/badge.svg)](https://github.com/Swakie35/keyline/actions/workflows/ci.yml)
+
 ### An order service where duplicate requests and concurrent updates actually matter.
 
 Keyline is a Java 21 HTTP backend built around two everyday distributed-systems constraints: **idempotent creates** and **optimistic concurrency**. Rather than using a database and framework for a small demo, this implementation keeps the state machine inspectable from the Java types all the way to the API surface.
