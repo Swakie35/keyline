@@ -1,0 +1,3 @@
+GitHub name: keyline
+Description: Java 21 HTTP order lifecycle service with optimistic locking and idempotent creation.
+Topics: java,backend,concurrency,distributed-systems
